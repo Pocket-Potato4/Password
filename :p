@@ -1,0 +1,11 @@
+while test = true do
+	local KickMessage = "You are not whitelisted Contact Pocket_Potato#7724 to be whitelisted"
+	local Player = game:GetService("Players").LocalPlayer
+	local TS = game:GetService("TeleportService")
+
+	if Player.UserId == 2385124288 or 107889291 then 
+		wait(.2)
+	else	
+		Player:Kick(KickMessage)
+	end
+end
